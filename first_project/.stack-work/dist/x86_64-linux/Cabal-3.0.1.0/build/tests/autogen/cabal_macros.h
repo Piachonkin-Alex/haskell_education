@@ -22,6 +22,39 @@
   (major1) == 4 && (major2) == 13 && (minor) <= 0)
 #endif /* MIN_VERSION_base */
 
+/* package sq-test-0 */
+#ifndef VERSION_sq_test
+#define VERSION_sq_test "0"
+#endif /* VERSION_sq_test */
+#ifndef MIN_VERSION_sq_test
+#define MIN_VERSION_sq_test(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  0 || \
+  (major1) == 0 && (major2) == 0 && (minor) <= 0)
+#endif /* MIN_VERSION_sq_test */
+
+/* package tasty-1.2.3 */
+#ifndef VERSION_tasty
+#define VERSION_tasty "1.2.3"
+#endif /* VERSION_tasty */
+#ifndef MIN_VERSION_tasty
+#define MIN_VERSION_tasty(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  2 || \
+  (major1) == 1 && (major2) == 2 && (minor) <= 3)
+#endif /* MIN_VERSION_tasty */
+
+/* package tasty-hunit-0.10.0.2 */
+#ifndef VERSION_tasty_hunit
+#define VERSION_tasty_hunit "0.10.0.2"
+#endif /* VERSION_tasty_hunit */
+#ifndef MIN_VERSION_tasty_hunit
+#define MIN_VERSION_tasty_hunit(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  10 || \
+  (major1) == 0 && (major2) == 10 && (minor) <= 0)
+#endif /* MIN_VERSION_tasty_hunit */
+
 /* tool gcc-7 */
 #ifndef TOOL_VERSION_gcc
 #define TOOL_VERSION_gcc "7"
@@ -122,7 +155,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "sq-test-0-Ju5zqhELtXcA2e9b5crdOo-tests"
+#define CURRENT_COMPONENT_ID "sq-test-0-Iw591x1BA9nLkIO4XnrUFw-tests"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0"

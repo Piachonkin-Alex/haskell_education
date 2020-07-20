@@ -1,12 +1,11 @@
-{-# OPTIONS -Wall #-}
+import System.Environment (getArgs)
 import Sqeq (sq)
 
 main :: IO ()
 main = do
-  a <- readLn
-  b <- readLn
-  c <- readLn
-  print $ sq a b c
-
-  
--- $> main
+  [as, bs, cs] <- getArgs
+  let
+    a = read as
+    b = read bs
+    c = read cs
+  putStrLn $ "Solutions: " ++ show(sq a b c)

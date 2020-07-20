@@ -133,7 +133,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "sq-test-0-AZjFPhRNQscJCEDYNTqqSA-sq-test"
+#define CURRENT_COMPONENT_ID "sq-test-0-6OtPQqazlZ6Kz6hzAmTZcE-sq-test"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0"

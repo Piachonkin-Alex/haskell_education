@@ -30,7 +30,7 @@ version = Version [0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/sanches/github/haskell_education/first_project/.stack-work/install/x86_64-linux/09f700479c383965e131bfc079a5aefe826c42142e06a3472e2e78b8bb72dec2/8.8.3/bin"
-libdir     = "/home/sanches/github/haskell_education/first_project/.stack-work/install/x86_64-linux/09f700479c383965e131bfc079a5aefe826c42142e06a3472e2e78b8bb72dec2/8.8.3/lib/x86_64-linux-ghc-8.8.3/sq-test-0-1UoIO9eSQGVLBndnXZti1N"
+libdir     = "/home/sanches/github/haskell_education/first_project/.stack-work/install/x86_64-linux/09f700479c383965e131bfc079a5aefe826c42142e06a3472e2e78b8bb72dec2/8.8.3/lib/x86_64-linux-ghc-8.8.3/sq-test-0-EfZPsiaTSYoCBCVJK5HYVC"
 dynlibdir  = "/home/sanches/github/haskell_education/first_project/.stack-work/install/x86_64-linux/09f700479c383965e131bfc079a5aefe826c42142e06a3472e2e78b8bb72dec2/8.8.3/lib/x86_64-linux-ghc-8.8.3"
 datadir    = "/home/sanches/github/haskell_education/first_project/.stack-work/install/x86_64-linux/09f700479c383965e131bfc079a5aefe826c42142e06a3472e2e78b8bb72dec2/8.8.3/share/x86_64-linux-ghc-8.8.3/sq-test-0"
 libexecdir = "/home/sanches/github/haskell_education/first_project/.stack-work/install/x86_64-linux/09f700479c383965e131bfc079a5aefe826c42142e06a3472e2e78b8bb72dec2/8.8.3/libexec/x86_64-linux-ghc-8.8.3/sq-test-0"
