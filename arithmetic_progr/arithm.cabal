@@ -1,0 +1,23 @@
+cabal-version: 2.2
+
+name: arithm
+version: 0
+
+library
+  build-depends: base
+  default-language: Haskell2010
+  exposed-modules: Arithmetic
+  hs-source-dirs: lib
+
+executable main
+  build-depends: base, arithm
+  default-language: Haskell2010
+  main-is: Main.hs
+  hs-source-dirs: exe
+
+test-suite tests
+  build-depends: base, tasty, tasty-hunit, arithm
+  default-language: Haskell2010
+  type: exitcode-stdio-1.0
+  main-is: Tests.hs
+  hs-source-dirs: test
