@@ -10,7 +10,7 @@ library
   hs-source-dirs: lib
 
 executable sq-test
-  build-depends: base, sq-test
+  build-depends: base, sq-test, optparse-applicative
   default-language: Haskell2010
   main-is: Main.hs
   hs-source-dirs: exe
